@@ -450,13 +450,12 @@ function DayCard({ day }: any) {
       <div className="mb-3 md:mb-4">
         <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between mb-2 gap-2">
           <h3 className="text-xl md:text-2xl font-bold text-ice-light">
-            Giorno {day.day} • {day.date}
+            Giorno {day.day} • {day.title}
           </h3>
           <span className="text-xs md:text-sm bg-ice-purple/20 px-3 py-1 rounded-full border border-ice-purple/50 w-fit">
             {day.distance}
           </span>
         </div>
-        <h4 className="text-lg md:text-xl text-ice-blue">{day.title}</h4>
       </div>
 
       {/* Activities */}
@@ -693,21 +692,10 @@ function BudgetCard({ budget, highlighted = false }: any) {
       
       <div className="text-center py-3 md:py-4 bg-black/50 rounded-lg border border-ice-purple/30">
         <div className="text-xl md:text-3xl font-bold text-ice-purple-light">
-          €{budget.total.min.toLocaleString()} - €{budget.total.max.toLocaleString()}
+          €{budget.total.value}
         </div>
-        <div className="text-xs md:text-sm text-ice-blue/70 mt-1">per coppia</div>
+        <div className="text-xs md:text-sm text-ice-blue/70 mt-1">per persona</div>
       </div>
-
-      {budget.items && (
-        <div className="mt-3 md:mt-4 space-y-1.5 md:space-y-2">
-          {Object.entries(budget.items).map(([key, item]: [string, any]) => (
-            <div key={key} className="flex justify-between text-xs md:text-sm border-b border-ice-blue/10 pb-1">
-              <span className="capitalize text-ice-blue/80">{key}</span>
-              <span className="font-bold text-ice-purple-light">€{item.min}-€{item.max}</span>
-            </div>
-          ))}
-        </div>
-      )}
     </div>
   );
 }
