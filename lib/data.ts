@@ -2,9 +2,10 @@ export const itineraryData = [
   {
     day: 1,
     date: "Giorno 1",
-    title: "Arrivo & Relax Termale",
+    title: "🛬 Arrivo & Relax Termale",
     locations: ["Keflavík Airport", "Blue Lagoon/Sky Lagoon", "Reykjavík"],
     coordinates: [64.1355, -21.8954],
+    image: "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/20/20/f2/2e/fall-sunsets-are-divine.jpg?w=400&h=300",
     activities: [
       {
         name: "Ritiro auto a KEF",
@@ -31,9 +32,10 @@ export const itineraryData = [
   {
     day: 2,
     date: "Giorno 2",
-    title: "Golden Circle Classico",
+    title: "⭕ Golden Circle",
     locations: ["Þingvellir", "Geysir", "Gullfoss"],
     coordinates: [64.2558, -20.7289],
+    image: "https://gti.images.tshiftcdn.com/3598989/x/0/geysir-strokkur-hot-spring-golden-circle-southwest-winter-wm-1.jpg",
     activities: [
       {
         name: "Þingvellir National Park",
@@ -68,9 +70,10 @@ export const itineraryData = [
   {
     day: 3,
     date: "Giorno 3",
-    title: "Costa Sud - Cascate & Spiagge Nere",
+    title: "🌊 Costa Sud Epica",
     locations: ["Seljalandsfoss", "Skógafoss", "Reynisfjara"],
     coordinates: [63.4182, -19.5111],
+    image: "https://t3.ftcdn.net/jpg/05/52/45/28/360_F_552452804_zLO7nua2zGLK4bEImzE7JVHzX8MPYKIw.jpg",
     activities: [
       {
         name: "Seljalandsfoss",
@@ -106,9 +109,10 @@ export const itineraryData = [
   {
     day: 4,
     date: "Giorno 4",
-    title: "Jökulsárlón & Diamond Beach",
+    title: "💎 Laguna degli Iceberg",
     locations: ["Jökulsárlón", "Diamond Beach"],
     coordinates: [64.0784, -16.2306],
+    image: "https://media2.holiplus.com/3840x2880/uploads/excursion/70679/jokulsarlon-glacier-lagoon-south-coast-private-tour-141.jpeg",
     activities: [
       {
         name: "Jökulsárlón Glacier Lagoon",
@@ -147,9 +151,10 @@ export const itineraryData = [
   {
     day: 5,
     date: "Giorno 5",
-    title: "Rientro Tranquillo",
+    title: "🚗 Verso la Capitale",
     locations: ["Varie soste lungo la costa sud"],
     coordinates: [63.8333, -20.0000],
+    image: "https://iceland24blog.com/wp-content/uploads/2015/01/4380305289_4e91d5afdb.jpg",
     activities: [
       {
         name: "Rientro con soste panoramiche",
@@ -176,9 +181,10 @@ export const itineraryData = [
   {
     day: 6,
     date: "Giorno 6",
-    title: "Esperienze da Reykjavík",
+    title: "🐋 Wildlife & Avventure",
     locations: ["Reykjavík - Old Harbour"],
     coordinates: [64.1466, -21.9426],
+    image: "https://elding.is/sites/default/files/styles/landscape_small/public/2026-01/2026_01_27_1300_eldy_emily_131.jpg?h=bba936a2&itok=89kgsqd5",
     activities: [
       {
         name: "Whale Watching con Elding",
@@ -228,9 +234,10 @@ export const itineraryData = [
   {
     day: 7,
     date: "Giorno 7",
-    title: "Reykjavík & Partenza",
+    title: "✈️ Città & Arrivederci",
     locations: ["Reykjavík centro", "Keflavík Airport"],
     coordinates: [64.1466, -21.9426],
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShJrx0Xf4HuSdodB5z_bRnrQ8TdmXBZ0Gv6A&s",
     activities: [
       {
         name: "Visita città Reykjavík",
