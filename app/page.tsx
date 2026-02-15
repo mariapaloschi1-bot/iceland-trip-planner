@@ -415,10 +415,10 @@ export default function Home() {
       <footer className="bg-gradient-to-t from-black via-ice-purple-dark/20 to-black border-t-2 border-ice-blue/30 mt-12 md:mt-16 py-6 md:py-8">
         <div className="max-w-7xl mx-auto px-4 text-center">
           <p className="text-ice-blue/70 text-sm md:text-base">
-            🧊 Buon viaggio in Islanda! • Planning creato con ❤️ per un'avventura sicura e indimenticabile
+            🧊 Viaggio in Islanda! • Planning creato con ❤️ per un'avventura sicura e indimenticabile
           </p>
           <p className="text-ice-blue/50 text-xs md:text-sm mt-2">
-            Ricorda: prenota con anticipo, controlla meteo su vedur.is, e mai girare le spalle al mare! 
+            Memo: prenotare tutto con anticipo, controllare sempre meteo su vedur.is, e mai girare le spalle al mare! 
           </p>
         </div>
       </footer>
