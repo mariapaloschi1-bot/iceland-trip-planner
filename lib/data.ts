@@ -237,7 +237,7 @@ export const itineraryData = [
     title: "✈️ Città & Arrivederci",
     locations: ["Reykjavík centro", "Keflavík Airport"],
     coordinates: [64.1466, -21.9426],
-    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShJrx0Xf4HuSdodB5z_bRnrQ8TdmXBZ0Gv6A&s",
+    image: "https://cdn.sanity.io/images/lf2d8f6r/production/05bf94aeefbda7be328798a68bf3fdd632ff6d60-2500x1662.jpg?q=75&fit=max&auto=format&w=400",
     activities: [
       {
         name: "Visita città Reykjavík",
@@ -275,36 +275,18 @@ export const itineraryData = [
 ];
 
 export const budgetData = {
-  comfortFurbo: {
-    name: "Comfort Furbo",
-    description: "Guesthouse + qualche cena fuori",
+  realistico: {
+    name: "Budget Realistico",
+    description: "Viaggio confortevole senza sprechi",
     items: {
-      voli: { min: 250, max: 350, note: "A/R per persona, prenotare con anticipo" },
-      auto: { min: 175, max: 250, note: "2WD automatico + assicurazioni (€350-500 totale diviso 2)" },
-      carburante: { min: 100, max: 175, note: "1.200-1.600 km totali, ~€1.35/litro (diviso 2)" },
-      alloggi: { min: 350, max: 600, note: "7 notti - guesthouse e 3★ per persona" },
-      pasti: { min: 300, max: 500, note: "Mix supermercato + ristoranti per persona" },
-      esperienze: { min: 175, max: 275, note: "Blue/Sky + whale + lava tunnel per persona" },
+      voli: { value: 300, note: "A/R per persona (Ryan/Wizz prenotati con anticipo)" },
+      auto: { value: 200, note: "2WD automatico per 7 giorni (€400 totale diviso 2)" },
+      carburante: { value: 125, note: "~1.400 km totali (€250 diviso 2)" },
+      alloggi: { value: 450, note: "7 notti mix guesthouse/hotel 3★ per persona" },
+      pasti: { value: 350, note: "Mix supermercato (colazione/pranzo) + cena fuori per persona" },
+      esperienze: { value: 150, note: "Sky Lagoon + 1-2 tour per persona" },
     },
-    total: { min: 1350, max: 2150 }
-  },
-  piuComodo: {
-    name: "Più Comodo",
-    description: "Hotel medi + più ristoranti + tour extra",
-    items: {
-      voli: { min: 300, max: 400, note: "A/R per persona" },
-      auto: { min: 200, max: 300, note: "Auto categoria superiore (diviso 2)" },
-      carburante: { min: 125, max: 175, note: "Stesso consumo (diviso 2)" },
-      alloggi: { min: 500, max: 875, note: "Hotel 4★ per persona" },
-      pasti: { min: 450, max: 700, note: "Più ristoranti per persona" },
-      esperienze: { min: 250, max: 400, note: "Più tour e premium packages per persona" },
-    },
-    total: { min: 1825, max: 2850 }
-  },
-  coccola: {
-    name: "Coccola",
-    description: "Hotel top + spa premium + tour privati",
-    total: { min: 3000, max: 5000 }
+    total: { value: 1575, note: "Totale per persona - sotto i 1600€!" }
   }
 };
 
@@ -373,7 +355,7 @@ export const experiencesDatabase = [
     name: "Blue Lagoon",
     category: "Laguna Termale",
     location: { lat: 63.8804, lng: -22.4495 },
-    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShJrx0Xf4HuSdodB5z_bRnrQ8TdmXBZ0Gv6A&s",
+    image: "https://cdn.sanity.io/images/lf2d8f6r/production/05bf94aeefbda7be328798a68bf3fdd632ff6d60-2500x1662.jpg?q=75&fit=max&auto=format&w=400",
     prices: [
       { type: "Comfort", price: 11990, currency: "ISK", eur: 80 },
       { type: "Premium", price: 15990, currency: "ISK", eur: 107 },
